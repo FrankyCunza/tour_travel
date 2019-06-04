@@ -1,0 +1,835 @@
+@import url("reset.css");
+@import url("all.min.css");
+@import url("fonts.css");
+@import url("fontawesome.min.css");
+/*color azul*/
+/*color crema*/
+/*color gris formularioss*/
+/*color celeste de precios*/
+body {
+  background-color: skyblue; }
+
+.container {
+  max-width: 1171px;
+  width: 100%;
+  margin: 0 auto; }
+
+.boton {
+  font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #006fe6;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 5px;
+  line-height: 55px; }
+
+.parrafo, .info_search_tours p, .find_tour p, .news_events p {
+  font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 25px; }
+
+.titulos_seccion, .find_tour h3, .deals_dis h3, .by_beauty h3, .news_events h3 {
+  text-align: center;
+  font-family: "Noodle", "Helvetica Neue";
+  color: #ffffff;
+  font-size: 50px; }
+
+/****************************************/
+/****************************************/
+/***************INICIO-CABECERA*********/
+/***************************************/
+/***************************************/
+.cabecera_fluid {
+  background-image: url(../images/fondo_cabecera.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+.cabecera {
+  background: rgba(17, 22, 29, 0.7); }
+
+/*.column_2{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}*/
+.socials {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px 8px 0px;
+  color: #ffffff;
+  font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .socials .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .socials .container li {
+      overflow: hidden; }
+  .socials .item:first-child li {
+    margin-right: 48px;
+    font-size: 13px; }
+  .socials .item:first-child li i {
+    font-size: 15px;
+    margin-right: 12px; }
+  .socials .item:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .socials .item:nth-child(2) li {
+    margin-left: 40px; }
+  .socials .search {
+    position: relative; }
+    .socials .search button {
+      cursor: pointer;
+      background: none;
+      border: none;
+      border-left: 1px solid #fff;
+      padding-left: 1rem;
+      margin-left: 1rem;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    .socials .search input {
+      display: none;
+      height: 2rem;
+      position: absolute;
+      top: -5px;
+      right: 50%;
+      padding: 0.5rem;
+      font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+      font-style: italic; }
+    .socials .search:hover input {
+      display: block; }
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0; }
+
+/*alinear horizontalmente con responsive*/
+.logo_menu {
+  padding-bottom: 13px;
+  padding-top: 18px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 9fr;
+  grid-template-columns: 3fr 9fr; }
+  .logo_menu .menu ul li {
+    margin-left: 3rem;
+    font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem; }
+  .logo_menu .logo {
+    font-family: "Noodle", "Helvetica Neue";
+    font-size: 40px; }
+  .logo_menu .logo h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    letter-spacing: 1px; }
+  .logo_menu .logo i {
+    font-size: 48px;
+    margin-right: 15px;
+    margin-left: 20px; }
+  .logo_menu .logo p {
+    font-family: "Noodle", "Helvetica Neue"; }
+  .logo_menu .logo .colordos {
+    color: #006fe6; }
+  .logo_menu .logo p span:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 1.5px; }
+
+.burger {
+  cursor: pointer;
+  font-size: 2rem; }
+
+/****************************************/
+/****************************************/
+/***************FIN-CABECERA*********/
+/***************************************/
+/***************************************/
+.search_tours {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 8fr 4fr;
+  grid-template-columns: 8fr 4fr; }
+
+.search_tours-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center; }
+  .search_tours-txt h2 {
+    font-size: 63px;
+    font-family: "Noodle", "Helvetica Neue"; }
+  .search_tours-txt p {
+    font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0px 50px; }
+
+.search_tours_contact {
+  margin-top: 110px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 43px;
+  width: 510px;
+  height: 600px;
+  background-color: #fff; }
+  .search_tours_contact * {
+    color: #5f5f5f; }
+  .search_tours_contact h3 {
+    font-family: "Noodle", "Helvetica Neue";
+    font-size: 70px;
+    margin-bottom: 10px; }
+  .search_tours_contact p {
+    font-size: 20px;
+    font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif; }
+  .search_tours_contact .element {
+    position: relative;
+    margin-top: 25px; }
+  .search_tours_contact .element input {
+    border: none;
+    padding: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    height: 55px;
+    width: 100%;
+    border-radius: 5px; }
+  .search_tours_contact .element label {
+    width: 100%;
+    pointer-events: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 24px;
+    font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif; }
+  .search_tours_contact .element label p {
+    top: 20px;
+    position: absolute;
+    font-size: 16px; }
+  .search_tours_contact .element label i {
+    top: 20px;
+    position: absolute;
+    right: 40px; }
+  .search_tours_contact button {
+    cursor: pointer;
+    width: 100%;
+    margin-top: 22px; }
+
+.element label p {
+  -webkit-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease; }
+
+.element input:focus ~ label p {
+  left: -10px;
+  top: 7px;
+  font-size: 12px; }
+
+.info_search_tours {
+  margin-top: -80px;
+  background-color: rgba(69, 145, 227, 0.9);
+  padding-top: 70px;
+  padding-bottom: 50px; }
+  .info_search_tours .info_search {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50%;
+    grid-template-columns: 50%; }
+
+.find_tour {
+  background-image: url(../images/find_tour.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 85px;
+  padding-bottom: 65px; }
+  .find_tour h3 {
+    color: #5f5f5f;
+    margin-bottom: 30px; }
+  .find_tour p {
+    text-align: center;
+    color: #5f5f5f; }
+
+.find_tour_galeria ul {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  clear: both;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.find_tour_galeria ul li {
+  margin-left: 2%;
+  margin-top: 25px;
+  /*display: flex;
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;*/
+  float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  min-width: 266px;
+  height: 266px; }
+
+.find_tour_galeria ul li:first-child {
+  margin-left: 0%; }
+
+.find_tour_galeria li a {
+  position: relative;
+  clear: both;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.find_tour_galeria li a img {
+  width: 266px;
+  height: 266px; }
+
+.find_tour_galeria li h4 {
+  width: 100%;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /*Alinear Horizontal y Verticalmente*/
+  -webkit-transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 33px;
+  letter-spacing: 2px;
+  font-family: "Noodle", "Helvetica Neue"; }
+
+.deals_dis {
+  background-image: url(../images/deals.jpg);
+  padding-top: 110px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 55px;
+  background-size: cover;
+  background-attachment: fixed; }
+  .deals_dis:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(71, 160, 255, 0.6);
+    z-index: -1; }
+  .deals_dis h3 {
+    color: #ffffff;
+    padding-bottom: 50px; }
+
+.deals_dis ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .deals_dis ul li {
+    clear: both;
+    overflow: hidden;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*flex-basis: 25%-1%;*/
+    max-width: 31%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*&:first-child, &:nth-child(4n){
+                margin-left:0px;
+            }*/ }
+    .deals_dis ul li .deals_dis_img {
+      clear: both;
+      overflow: hidden; }
+    .deals_dis ul li img {
+      width: 100%;
+      -webkit-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+      transform: scale(1.2, 1.2); }
+    .deals_dis ul li h4 {
+      font-size: 50px;
+      font-family: "Noodle", "Helvetica Neue"; }
+    .deals_dis ul li p {
+      padding: 0px 16px;
+      margin-top: 23px;
+      font-size: 15px;
+      line-height: 20px; }
+    .deals_dis ul li p:nth-child(2) {
+      background-color: #47a0ff;
+      color: #ffffff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      font-family: "Noodle", "Helvetica Neue";
+      font-size: 37px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 170px;
+      height: 55px;
+      margin-bottom: 25px;
+      margin-top: -27px;
+      z-index: 2; }
+      .deals_dis ul li p:nth-child(2) span {
+        font-size: 29px;
+        color: #ffffff;
+        text-decoration: line-through;
+        margin-right: 15px; }
+    .deals_dis ul li * {
+      color: #5f5f5f; }
+    .deals_dis ul li a {
+      cursor: pointer;
+      color: #ffffff;
+      line-height: 55px;
+      background-color: #006fe6;
+      border: none;
+      font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      width: 80%;
+      text-align: center;
+      border-radius: 5px;
+      margin-bottom: 35px;
+      margin-top: 35px; }
+
+.by_beauty {
+  background-color: #f2f2f2; }
+  .by_beauty h3 {
+    color: #5f5f5f;
+    line-height: 250px; }
+  .by_beauty ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .by_beauty ul li {
+      cursor: pointer;
+      clear: both;
+      overflow: hidden;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      max-height: 410px;
+      width: 33%;
+      font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: bold;
+      position: relative;
+      z-index: 2;
+      text-align: center; }
+      .by_beauty ul li h4 {
+        padding: 170px 0px 0px  0px;
+        font-size: 26px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        -webkit-transition: all .7s;
+        -o-transition: all .7s;
+        transition: all .7s; }
+      .by_beauty ul li:hover button {
+        /*transform: translateY(-50px);*/
+        margin-top: 23px;
+        -webkit-animation-name: boton;
+        animation-name: boton;
+        -webkit-animation-duration: .7s;
+        animation-duration: .7s;
+        -webkit-transition: all .7s;
+        -o-transition: all .7s;
+        transition: all .7s; }
+      .by_beauty ul li:hover h4 {
+        padding-top: 145px; }
+      .by_beauty ul li:hover img {
+        -webkit-transform: scale(1.3, 1.3);
+        -ms-transform: scale(1.3, 1.3);
+        transform: scale(1.3, 1.3); }
+      .by_beauty ul li button {
+        background-color: #006fe6;
+        cursor: pointer;
+        font-size: 14px;
+        width: 154px;
+        color: #ffffff;
+        font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bold;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 35px;
+        position: relative;
+        -webkit-transition: all .7s;
+        -o-transition: all .7s;
+        transition: all .7s;
+        margin-top: 190px;
+        -webkit-animation-name: botondos;
+        animation-name: botondos;
+        -webkit-animation-duration: .7s;
+        animation-duration: .7s;
+        /*transform: translateY(100px);*/ }
+    .by_beauty ul img {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: -1;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: -webkit-transform .7s;
+      transition: -webkit-transform .7s;
+      -o-transition: transform .7s;
+      transition: transform .7s;
+      transition: transform .7s, -webkit-transform .7s; }
+    .by_beauty ul p {
+      font-size: 14px; }
+
+@-webkit-keyframes boton {
+  0% {
+    opacity: 0; }
+  35% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes boton {
+  0% {
+    opacity: 0; }
+  35% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes botondos {
+  0% {
+    opacity: 1; }
+  35% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+@keyframes botondos {
+  0% {
+    opacity: 1; }
+  35% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+.news_events {
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .news_events h3 {
+    color: #5f5f5f;
+    padding-bottom: 40px; }
+  .news_events p {
+    text-align: center;
+    color: #5f5f5f; }
+  .news_events ul {
+    margin-top: 55px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .news_events ul li {
+      padding: 12px 12px 50px 12px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      clear: both;
+      overflow: hidden;
+      -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+      margin-top: 0px; }
+    .news_events ul *:not(i) {
+      font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 15px;
+      color: #5f5f5f; }
+    .news_events ul * {
+      margin-top: 28px; }
+    .news_events ul li a {
+      padding-left: 0px; }
+    .news_events ul i, .news_events ul a, .news_events ul p, .news_events ul h5 {
+      padding-left: 13px; }
+    .news_events ul i {
+      color: #5f5f5f;
+      margin-right: 9px; }
+    .news_events ul li .news_image {
+      margin-top: 0px !important;
+      clear: both;
+      overflow: hidden;
+      max-height: 227px; }
+      .news_events ul li .news_image img {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        margin-top: 0px; }
+    .news_events ul h5 {
+      font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: bold;
+      color: #47a0ff; }
+    .news_events ul p {
+      line-height: 20px;
+      text-align: left; }
+
+.lux_travel {
+  background: url(../images/luxury_travel.jpg);
+  position: relative;
+  padding-top: 190px;
+  padding-bottom: 135px;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Noodle", "Helvetica Neue";
+  z-index: 1;
+  background-attachment: fixed;
+  background-size: cover; }
+  .lux_travel:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1; }
+  .lux_travel h3 {
+    font-size: 150px; }
+  .lux_travel p {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .lux_travel a {
+    background-color: #47a0ff;
+    font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 50px;
+    width: 156px;
+    line-height: 156px;
+    margin: 0 auto;
+    display: block;
+    padding: 0px;
+    z-index: 5;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
+  .lux_travel a:hover {
+    -webkit-transform: rotate(360deg) scale(1.1);
+    -ms-transform: rotate(360deg) scale(1.1);
+    transform: rotate(360deg) scale(1.1); }
+
+footer {
+  background-color: #ffffff; }
+  footer * {
+    color: #5f5f5f; }
+  footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    footer ul ul {
+      border: none !important;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      margin: 0px !important;
+      padding: 0px !important;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      footer ul ul li {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+      footer ul ul a {
+        border-radius: 50%;
+        margin-right: 10px;
+        width: 44px;
+        height: 44px;
+        display: block;
+        text-align: center;
+        line-height: 44px;
+        background-color: #47a0ff; }
+    footer ul li {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1; }
+      footer ul li p {
+        margin-top: 7px; }
+    footer ul i {
+      color: #ffffff; }
+    footer ul li:nth-child(3) ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      footer ul li:nth-child(3) ul li {
+        -ms-flex-preferred-size: 25% !important;
+        flex-basis: 25% !important; }
+  footer h4 {
+    font-family: "Noodle", "Helvetica Neue";
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 75px; }
+  footer p {
+    font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100; }
+  footer .element {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background-color: #f2f2f2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    footer .element input {
+      border: none;
+      width: 100%;
+      height: 55px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    footer .element label {
+      position: absolute;
+      top: 22%;
+      left: 5%;
+      pointer-events: none; }
+    footer .element button {
+      border: none;
+      height: 85%;
+      width: 50%;
+      cursor: pointer;
+      border-radius: 5px;
+      color: #ffffff;
+      background-color: #47a0ff;
+      font-family: "OpenSans", "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: bold; }
+  footer ul:last-child {
+    border-top: 1px solid #5f5f5f;
+    margin-top: 40px;
+    padding-top: 40px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    footer ul:last-child div.container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+
+footer .icon_animated {
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
+  footer .icon_animated:hover {
+    background-color: #ffffff;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+  footer .icon_animated i {
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    position: relative;
+    display: block;
+    line-height: 44px; }
+  footer .icon_animated:hover > i:first-child {
+    /*transform: translateY(50px);*/
+    -webkit-animation-name: animaricono;
+    animation-name: animaricono;
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin-top: -44px; }
+  footer .icon_animated:hover i:last-child {
+    color: #47a0ff; }
+
+/*
+@keyframes animaricono{
+    0%{
+       transform: translateY(0px) rotate(0deg);
+    }
+
+    60%{
+        transform: translateY(50px);
+    }
+    60.01%{
+        transform: translateX(50px);
+    }
+    60.02%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+}*/

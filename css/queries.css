@@ -1,0 +1,184 @@
+@media screen and (max-width: 1200px) {
+  .container{
+  	padding: 0px 20px;
+  	box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .logo_menu{
+  	grid-template-columns: 12fr;
+  	flex-direction: row;
+  	justify-content: center;
+  }
+  .logo{
+  	display: flex;
+  	justify-content: center;
+  }
+  .logo_menu .logo i{
+  	margin-left: 0px;
+  }
+  .menu{
+  	display: flex;
+  	margin-top: 20px;
+  	justify-content: center;
+  }
+  .menu ul li:first-child{
+  	margin-left: 0px;
+  }
+
+  .search_tours{
+  	justify-content: center;
+  	display: flex;
+  	grid-template-columns: 12fr;
+  	flex-direction: column;
+  }
+  .search_tours-txt{
+  	margin-top: 30px;
+  }
+  .search_tours_contact{
+  	justify-content: center;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 30px;
+  }
+
+  .info_search_tours{
+  	margin-top: 20px;
+  	padding: 20px 0px;
+  	text-align: center;
+  	display: flex;
+  	grid-template-columns: 100%;
+  }
+  .info_search{
+  	grid-template-columns: 12fr !important;
+  }
+  .deals_dis ul li{
+  	max-width: 90% !important;
+  }
+  .by_beauty ul li{
+  	width: 50%;
+  }
+  .news_events ul li{
+  	flex-basis: 48%;
+  	margin-top: 25px;
+  }
+
+  .deals_dis ul{
+    justify-content: center !important;
+  }
+  .deals_dis ul li{
+    margin-top: 1rem;
+  }
+  .deals_dis ul li .deals_dis_img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .menu ul{
+        display: flex;
+        justify-content: flex-end;
+   }
+  button.burger{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px){
+	footer ul{
+		flex-wrap: wrap;
+	}
+	footer ul li{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	  width: 100%;
+	  flex-basis: 100%;
+	  }
+  .menu{
+    position: relative;
+    width: 25%;
+    margin-top: 0px;
+  }
+  .menuburger{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+  .menuburger li{
+    text-align: center;
+    
+    margin: 0px !important;
+  }
+  .menuburger li a{
+    background: #006fe6;
+    display: block;
+    line-height: 2.2rem;
+  }
+  button.burger{
+    width: 100%;
+    background: #006fe6;
+    border: none;
+  }
+  .logo_menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .socials{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .search_tours_contact{
+  	max-width: 100%;
+  	width: 100%;
+  }
+  .find_tour_galeria ul li{
+  	 margin-left: auto !important;
+  	 margin-right: auto !important;
+  }
+  .deals_dis ul li{
+  	margin-left: auto;
+  	margin-right: auto;
+  	max-width: 100%;
+  	margin-top: 25px;
+  }
+  .by_beauty ul li{
+  	width: 100%;
+  	height: 350px;
+  }
+  .news_events ul li{
+  	flex-basis: 100%;
+  	margin-top: 25px;
+  }
+  .news_image{
+  	display: flex;
+  	justify-content: center;
+  }
+  .news_image img{
+  	width: 100%;
+  }
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    .deals_dis ul li{
+        max-width: 49%;
+        margin-top: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+  .by_beauty h3{
+    line-height: 48px;
+    padding: 3rem 0rem;
+  }
+}
